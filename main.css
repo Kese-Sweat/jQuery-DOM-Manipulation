@@ -20,5 +20,22 @@
     background-color: blueviolet;
     height: 30px;
     font-size: 14px;
+    transition: 1s height ease-in;
+    overflow: hidden;
     
 }
+
+p{
+    height: 0;
+    transition: 1s height ease-in;
+    overflow: hidden;
+    background-color: lightcoral
+}
+
+p.active{
+
+    height: 50px;
+    overflow: auto;
+}
+
+
