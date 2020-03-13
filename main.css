@@ -25,14 +25,41 @@
     
 }
 
-p{
+.paragraph1{
     height: 0;
     transition: 1s height ease-in;
     overflow: hidden;
     background-color: lightcoral
 }
 
-p.active{
+.paragraph1.active{
+
+    height: 50px;
+    overflow: auto;
+}
+
+
+.paragraph2{
+    height: 0;
+    transition: 1s height ease-in;
+    overflow: hidden;
+    background-color: lightcoral
+}
+
+.paragraph2.active{
+
+    height: 50px;
+    overflow: auto;
+}
+
+.paragraph3{
+    height: 0;
+    transition: 1s height ease-in;
+    overflow: hidden;
+    background-color: lightcoral
+}
+
+.paragraph3.active{
 
     height: 50px;
     overflow: auto;
