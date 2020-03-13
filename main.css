@@ -1,12 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
 
 .container{
     width: 50%;
+    height: auto;
+    border-style: solid;
+    border-color: darkgoldenrod;
+    
 
 
 }
 
+
 .box{
 
     background-color: blueviolet;
-    width: auto
+    
 }
